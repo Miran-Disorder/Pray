@@ -1,0 +1,122 @@
+*{
+  background-color: #0B0B0B;
+  font-family: 'Inter';
+  color: white;
+}
+
+a{
+  background-color: transparent;
+}
+
+.welcome {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-bottom: 0;
+
+
+}
+.highlight {
+  color: #E4BB14;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 0;
+}
+
+.welcome-sentence {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight:460;
+  margin-left: 1.75rem;
+  margin-top: 0.5rem;
+}
+
+.logo{
+  display: block;
+  margin: auto;
+  width: 17.1875rem;
+  height: 17.1875rem;
+}
+
+.continue-button {
+  border: none;
+  font-weight: 500;
+  width: 17.625rem;
+  height: 3.75rem;
+  background-color: #E4BB14;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+  margin-bottom: 1.3125rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  &:hover{
+    background-color: #0B0B0B;
+    border: 1px solid #E4BB14;
+
+    a{
+      color: #E4BB14;
+    }
+  }
+
+  a{
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+    color: #262626;
+    font-size: 1.125rem;
+  }
+
+}
+.learn-more-about-me-button {
+  border: 1px solid #E4BB14;
+  width: 17.625rem;
+  height: 3.75rem;
+  font-size: 1.125rem;
+  border-radius: 8px;
+  font-weight: 500;
+  display: block;
+  margin: auto;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  &:hover{
+    a{
+      color: #0B0B0B;
+    }
+    background-color: #E4BB14;
+  }
+  a{
+    margin: 1.6875rem;
+    text-decoration: none;
+    color: #E4BB14;
+  }
+
+}
+
+.buttons {
+  margin-top: 4.5625rem;
+}
+
+@media (min-width: 500px) {
+
+  .welcome {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .welcome-sentence {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .logo{
+    width:  40rem;
+    height: 15rem;
+  }
+}

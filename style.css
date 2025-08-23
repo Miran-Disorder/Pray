@@ -38,17 +38,20 @@ a{
   margin: auto;
   width: 17.1875rem;
   height: 17.1875rem;
+  margin-bottom: 3rem;
 }
 
 .continue-button {
-  border: none;
-  font-weight: 500;
-  width: 17.625rem;
-  height: 3.75rem;
-  background-color: #E4BB14;
-  border-radius: 8px;
+  margin-top: 3.5625rem;
   display: block;
   margin: auto;
+  border: none;
+  border-radius: 8px;
+  background-color: #E4BB14;
+  font-size: 2.125rem;
+  font-weight: 500;
+  width: 35vh;
+  height: 3.75rem;
   margin-bottom: 1.3125rem;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -63,36 +66,56 @@ a{
   }
 
   a{
+    display: block;
+    margin: auto;
+    padding: 7% 25%;
+    text-align: center;
+    line-height: 100%;
     font-weight: 500;
     text-decoration: none;
     background-color: transparent;
-    color: #262626;
+    color: #0B0B0B;
     font-size: 1.125rem;
   }
 
 }
-.learn-more-about-me-button {
-  border: 1px solid #E4BB14;
-  width: 17.625rem;
-  height: 3.75rem;
-  font-size: 1.125rem;
-  border-radius: 8px;
-  font-weight: 500;
+.about-me-button {
   display: block;
   margin: auto;
+  border: 1px solid #E4BB14;
+  border-radius: 8px;
+  background-color: #0B0B0B;
+  font-size: 2.125rem;
+  font-weight: 500;
+  width: 35vh;
+  height: 3.75rem;
+  margin-bottom: 1.3125rem;
   transition-duration: 0.4s;
   cursor: pointer;
+  justify-content: center;
+
 
   &:hover{
+    background-color: #E4BB14;
+    border: 1px solid #0B0B0B;
+
     a{
       color: #0B0B0B;
     }
-    background-color: #E4BB14;
   }
+
   a{
-    margin: 1.6875rem;
+    display: block;
+    margin: auto;
+    text-align: center;
+    line-height: 100%;
+    font-weight: 500;
     text-decoration: none;
+    background-color: transparent;
     color: #E4BB14;
+    font-size: 1.125rem;
+    padding: 7%;
+
   }
 
 }
@@ -104,6 +127,7 @@ a{
 @media (min-width: 500px) {
 
   .welcome {
+
     font-size: 3rem;
     text-align: center;
     line-height: 1.4;
@@ -118,5 +142,15 @@ a{
   .logo{
     width:  40rem;
     height: 15rem;
+  }
+
+  .welcome-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-me-button {
+    display: flex;
+    justify-content: center;
   }
 }

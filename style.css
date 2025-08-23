@@ -120,6 +120,15 @@ a{
 
 }
 
+.credit{
+    font-size: 0.625rem;
+    color: #838383;
+    opacity: 89%;
+    font-weight: 400;
+    text-align: right;
+
+  }
+
 .buttons {
   margin-top: 4.5625rem;
 }
